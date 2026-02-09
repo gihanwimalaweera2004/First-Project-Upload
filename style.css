@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url("Images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navlinks ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.navlinks li{
+    margin-right: 0.8em;
+}
+a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.ctaBtn{
+    padding: 0.5em 1em;
+    border: 1px solid orangered;
+    background: transparent;
+    border-radius: 1em;
+    color: white;
+    cursor: pointer;
+}
+#main-content{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 150px;
+    
+}
+#main-content .ctaBtn{
+    margin-top: 4%;
+    padding:10px 20px;
+}
+#main-content h1{
+    font-size: 3rem;
+}
+#main-content p{
+    width: 50%;
+    text-transform: capitalize;
+    margin-top: 2%;
+}
+hr{
+    margin-top: 2%;
+    border-color: aqua;
+}
+#colomn-sec{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 5%;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.destinations{
+    margin-top: 60px;
+    padding-bottom: 5%;
+}
+.destinations p, .destinations h2{
+    margin-left: 2%;
+}
+.desti-prgh{
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+}
+.destinations h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+div.card1{
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(Images/card1.png);
+}
+div.card2{
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(Images/card2.jpg);
+}
+div.card3{
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(Images/card3.jpg);
+}
+div.card4{
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(Images/card4.jpg);
+}
+div.card{
+    width: 250px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+
+.card-text{
+    position: relative;
+    top: 280px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
